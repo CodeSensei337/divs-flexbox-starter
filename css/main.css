@@ -99,7 +99,7 @@ textarea {
 
 
 html {
-  background-color: #fff;
+  background-color: #ff99c2;      /* CS : changed background color */
   height: 100%;
 }
 
@@ -110,24 +110,51 @@ body {
   height: 100%;
 }
 
-.wrapper {
+.wrapper-1 {
   display: flex;                    /* CS : added display:flex and set justify-content to space-between */
   justify-content: space-between;
   font-weight: 700;
 }
 
-.div-1, .div-2, .div-3 {            /* CS : added display: flex;, changed divs width to 30%, set justify-content and align-items to center */
+.wrapper-2 {
+  display: flex;                    /* CS : styled wrapper-2 which is an addition to original */
+  justify-content: space-between;
+  font-weight: 700;
+  width: 99%;
+}
+
+.div-1, .div-2, .div-3 {            /* CS : added display: flex;, changed divs width to 32%, set justify-content and align-items to center */
   display: flex;
   justify-content: center;
   align-items: center;
-  color: #fff;
+  color: #595959;                 /* CS : changed font color */
   line-height: 1.5em;
-  font-size: 1.6em;
-  background-color: #f16059;
-  width: 30%;
-  height: 300px;
-  
+  font-size: 0.6em;
+  width: 32%;
+  height: 45%;                      /* CS : changed height from 300px to 45% */
 }
+
+.div-1 {                            /* CS : thin demarcation line between divs 1 and 2 */
+  border-right-style: solid;
+  border-right-color: #1aff1a;
+}
+
+.div-2 {                            /* CS : thin demarcation line between divs 2 and 3 */
+  border-right-style: solid;
+  border-right-color: #1aff1a;
+}
+
+.div-4 {                            /* CS : added div 4 for copyright statement */
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  color: #595959;
+  font-family: 'Arvo', serif;
+  line-height: 1.5em;
+  font-size: 0.6em;
+  width: 90%;
+}
+
 
 
 
