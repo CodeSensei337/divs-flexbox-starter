@@ -123,15 +123,15 @@ body {
   width: 99%;
 }
 
-.div-1, .div-2, .div-3 {            /* CS : added display: flex;, changed divs width to 32%, set justify-content and align-items to center */
+.div-1, .div-2, .div-3 {            /* CS : added display: flex;, changed divs width to 30%, set justify-content and align-items to center */
   display: flex;
   justify-content: center;
   align-items: center;
   color: #595959;                 /* CS : changed font color */
-  line-height: 1.5em;
-  font-size: 0.6em;
-  width: 32%;
-  height: 45%;                      /* CS : changed height from 300px to 45% */
+  line-height: 3.0em;               /* CS : changed line-height from 1.5em to 3.0em */
+  font-size: 0.8em;                 /* CS : changed font-size from 1.6em to 0.8em  */
+  width: 30%;
+  height: 75%;                      /* CS : changed height from 300px to 75% */
 }
 
 .div-1 {                            /* CS : thin demarcation line between divs 1 and 2 */
@@ -147,12 +147,13 @@ body {
 .div-4 {                            /* CS : added div 4 for copyright statement */
   display: flex;
   justify-content: center;
-  align-items: flex-start;
+  align-items: flex-end;
   color: #595959;
   font-family: 'Arvo', serif;
   line-height: 1.5em;
   font-size: 0.6em;
   width: 90%;
+  height: 20%;
 }
 
 
